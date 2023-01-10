@@ -1,17 +1,17 @@
 # Getting and Cleaning Data Course Project Code Book
 The initial step was read the data files into R, then i did the following steps:
 
-Merges the training and the test sets to create one data set. I created the tidy data set with the rbind() function.
+1. Merges the training and the test sets to create one data set. I created the tidy data set with the rbind() function.
 
-Extracts only the measurements on the mean and standard deviation for each measurement. I did this with the functions select() and contains() from the package dplyr.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. I did this with the functions select() and contains() from the package dplyr.
 
-Uses descriptive activity names to name the activities in the data set. I changed the codes in tidy with the activities in the file activity_labels.txt.
+3. Uses descriptive activity names to name the activities in the data set. I changed the codes in tidy with the activities in the file activity_labels.txt.
 
-Appropriately labels the data set with descriptive variable names. I did this with the gsub() function and some regular expressions.
+4. Appropriately labels the data set with descriptive variable names. I did this with the gsub() function and some regular expressions.
 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. For this step, first i used the functions group_by() and summarize_all() (variation of the summarize() function) from the package dplyr.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. For this step, first i used the functions group_by() and summarize_all() (variation of the summarize() function) from the package dplyr.
 
-Initial data
+## Initial data
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
