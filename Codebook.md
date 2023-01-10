@@ -43,4 +43,5 @@ gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
   * FrecuencyBody: Accelerometer-Gyroscope Jerk-Magnitude-Mean-Std X-Y-Z.
   * AngleTimeBodyAccelerometerMeanGravity.
   * AngleTimeBodyAccelerometerMeanGravity.
+  
 I used the write.table() function to save the file tidy_dataset.txt.
