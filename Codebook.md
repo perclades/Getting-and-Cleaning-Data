@@ -36,7 +36,7 @@ gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 
 * The initial variables with some modifications in the names. Some variables are specified in this way:
 
-** Subject.
+  * Subject.
 ** Activity.
 ** TimeBody: Accelerometer-Gyroscope Jerk-Mean-Std X-Y-Z.
 ** TimeGravity: Accelerometer Jerk-Mean-Std X-Y-Z.
