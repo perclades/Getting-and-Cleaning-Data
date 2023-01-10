@@ -1,4 +1,4 @@
-Getting and Cleaning Data Course Project Code Book
+###Getting and Cleaning Data Course Project Code Book
 The initial step was read the data files into R, then i did the following steps:
 
 Merges the training and the test sets to create one data set. I created the tidy data set with the rbind() function.
