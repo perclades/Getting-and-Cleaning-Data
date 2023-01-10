@@ -32,7 +32,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 
 ## Feature transformation
-A factor variable called Activity with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+* A factor variable called Activity with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
 The initial variables with some modifications in the names. Some variables are specified in this way:
 
