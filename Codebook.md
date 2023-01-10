@@ -34,13 +34,13 @@ gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 ## Feature transformation
 * A factor variable called Activity with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
-The initial variables with some modifications in the names. Some variables are specified in this way:
+* The initial variables with some modifications in the names. Some variables are specified in this way:
 
-Subject.
-Activity.
-TimeBody: Accelerometer-Gyroscope Jerk-Mean-Std X-Y-Z.
-TimeGravity: Accelerometer Jerk-Mean-Std X-Y-Z.
-FrecuencyBody: Accelerometer-Gyroscope Jerk-Magnitude-Mean-Std X-Y-Z.
-AngleTimeBodyAccelerometerMeanGravity.
-AngleTimeBodyAccelerometerMeanGravity.
+** Subject.
+** Activity.
+** TimeBody: Accelerometer-Gyroscope Jerk-Mean-Std X-Y-Z.
+** TimeGravity: Accelerometer Jerk-Mean-Std X-Y-Z.
+** FrecuencyBody: Accelerometer-Gyroscope Jerk-Magnitude-Mean-Std X-Y-Z.
+** AngleTimeBodyAccelerometerMeanGravity.
+** AngleTimeBodyAccelerometerMeanGravity.
 I used the write.table() function to save the file tidy_dataset.txt.
