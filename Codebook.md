@@ -37,10 +37,10 @@ gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 * The initial variables with some modifications in the names. Some variables are specified in this way:
 
   * Subject.
-** Activity.
-** TimeBody: Accelerometer-Gyroscope Jerk-Mean-Std X-Y-Z.
-** TimeGravity: Accelerometer Jerk-Mean-Std X-Y-Z.
-** FrecuencyBody: Accelerometer-Gyroscope Jerk-Magnitude-Mean-Std X-Y-Z.
-** AngleTimeBodyAccelerometerMeanGravity.
-** AngleTimeBodyAccelerometerMeanGravity.
+  * Activity.
+  * TimeBody: Accelerometer-Gyroscope Jerk-Mean-Std X-Y-Z.
+  * TimeGravity: Accelerometer Jerk-Mean-Std X-Y-Z.
+  * FrecuencyBody: Accelerometer-Gyroscope Jerk-Magnitude-Mean-Std X-Y-Z.
+  * AngleTimeBodyAccelerometerMeanGravity.
+  * AngleTimeBodyAccelerometerMeanGravity.
 I used the write.table() function to save the file tidy_dataset.txt.
